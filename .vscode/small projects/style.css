@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    
+    background-color:rgb(210, 139, 212);
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    width:400px;
+    height:200px;
+    background-image: url(/moonbycanva.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 10px;
+   animation: image 20s linear infinite;
+    /* position:absolute;
+
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+}
+@keyframes image{
+    0%{
+       background-image: url(/whithemoon.png);
+       background-size: cover;
+    }
+    25%{
+        background-image: url(/pngtree_cool-white-sports-car-clipart_21477441.png);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/video\ thembinal.png);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/i\ want\ a\ videothembinal\ and\ the\ video\ his\ a\ intro\ video\ \,\ i\ want\ a\ AJ\ name\ logo\ on\ thembinal.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/source.gif);
+        background-size: cover;
+    }
+    
+}

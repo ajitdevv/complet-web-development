@@ -1,0 +1,95 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+/* .contener{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   color: rgb(36, 37, 39);
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 10px;
+   gap: 30px; */
+   /* align-items: center; */
+   
+   
+/* }
+.itam{
+   width: 70px;
+   aspect-ratio: 1;
+   margin: 1%;
+   border-radius: 50%;
+   background-color: aqua;
+   box-shadow: 0 0 0 10px rgba(0, 255, 255, 0.372); */
+   /* transition: all;
+   transition-duration: 2s; */
+/* }
+.itam:nth-child(1):hover{ */
+   /* translate: 50vw;
+   transition-timing-function: ease; */
+/* }
+.itam:nth-child(2):hover{
+   translate: 50vw;
+   transition-timing-function: ease-in; 
+}
+.itam:nth-child(3):hover{
+   translate: 50vw;
+   transition-timing-function: ease-out;
+}
+.itam:nth-child(4):hover{
+   translate: 50vw;
+   transition-timing-function: ease-out;
+}
+.itam:nth-child(5):hover{
+   translate: 50vw;
+   transition-timing-function: step-end;
+} */
+
+
+body{
+   
+ }
+.animaitions{
+   height: 100vh;
+   width: 100;
+   /* display: flex; */
+   /* justify-content: center; */
+   /* flex-direction: column; */
+   /* align-items: center; */
+   /* display: flex;
+  justify-content: center;  horizontally center
+  align-items: center;      vertically center
+  height: 100vh; */  
+  
+  /* background-image: url(/OIP.webp); */
+   background-size: cover;
+   background-repeat: no-repeat;
+} 
+
+.animaitions img{
+  position: absolute;
+  bottom: 18%;
+   width: 100px;
+   height: 100px;
+animation: mario 2s alternate-reverse;
+}
+@keyframes mario{
+   0% {
+      translate:0%;
+   }
+   /* 49%{
+      translate:0%;
+   } */
+   /* 50%{
+      transform: translateY(-30%);
+   }
+   70%{
+      transform: translateY(-30%);
+   } */
+   100% {
+     translate:calc(100vw);
+   }
+}
