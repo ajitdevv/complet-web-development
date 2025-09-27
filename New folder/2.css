@@ -6,24 +6,25 @@
     src: url(/Athletic.TTF);
 } */
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
 
-html {
-    /* width: 500px; */
 
-    font-size: 92%;
-    
-    background-size: cover;
-    
+/* html { */
+/* width: 500px; */
 
-    /* background-image: url(/moonbycanva.png); */
-    /* text-align: center; */
+/* font-size: 92%; */
 
-}
+/* background-size: cover; */
+
+
+/* background-image: url(/moonbycanva.png); */
+/* text-align: center; */
+
+/* } */
 
 /* body { */
 /* height: 100vh; */
@@ -205,14 +206,15 @@ html {
     background-color: rgba(107, 242, 242, 0.313);
     overflow-y: scroll;
 
-/* z-index: 1000;* */
+    /* z-index: 1000;* */
 }
 
 .ford_p span {
     font-weight: bold;
 }
-.ford_p::selection{
-    background-color:rgba(246, 114, 43, 0.534) ;
+
+.ford_p::selection {
+    background-color: rgba(246, 114, 43, 0.534);
 }
 
 /* li{
@@ -230,7 +232,7 @@ html {
 
 .png1 {
     filter: drop-shadow(5px 5px 3px rgb(0, 0, 0));
-    
+
 
 
 }
