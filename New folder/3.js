@@ -28,7 +28,7 @@ function createToster(confe) {
 return function (str) {
   let div  = document.createElement("div");
   div.textContent= str;
-  div.className=`inline-block ${confe.theme ==="dark" ? "bg-gray-800 text-white" : "bg-gray-100 text-black"} px-6 py-3 rounded shadow-lg pointer-events-none `
+  div.className=`inline-block ${confe.theme ==="dark" ? "bg-gray-800 text-white" : "bg-gray-100 text-black"} px-6 py-3 rounded shadow-lg pointer-events-none`
   document.querySelector(".toast").appendChild(div);
   setTimeout(() => {
     document.querySelector(".toast").removeChild(div)
@@ -39,8 +39,8 @@ return function (str) {
 }
 
 let toster = createToster({
-    positionX:"right",
-    positionY:"top",
+    // positionX:"right",
+    // positionY:"top",
     theme:"dark",
     duration:3,
      
