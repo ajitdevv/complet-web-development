@@ -30,6 +30,9 @@ return function (str) {
   div.textContent= str;
   div.className="inline-block bg-gray-800 text-white px-6 py-3 rounded shadow-lg pointer-events-none transition-opacity duration-300"
   document.querySelector(".toast").appendChild(div);
+  setTimeout(() => {
+    document.querySelector(".toast").removeChild(div)
+  }, confe.duration*1000);
 
 };
     
@@ -43,3 +46,6 @@ let toster = createToster({
      
 });
 toster("downlod now")
+setTimeout(() => {
+  toster("adfghjTYU")
+}, 2000);
