@@ -73,13 +73,13 @@
 // output----- Window {window: Window, self: Window, document: document, name: '', location: Location, …}
 
 // * value of this in method
-// let obj={
-//   name:"raj ",
-//   sayname : function () {
-//     console.log(this.name)
-//   }
-// }
-// obj.sayname()
+let obj={
+  name:"raj ",
+  sayname : function () {
+    console.log(this.name)
+  }
+}
+obj.sayname()
 
 // otuput----- object in object
 
