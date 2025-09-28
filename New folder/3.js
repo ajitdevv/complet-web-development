@@ -73,39 +73,39 @@
 // output----- Window {window: Window, self: Window, document: document, name: '', location: Location, …}
 
 // * value of this in method
-let obj={
-  name:"raj ",
-  sayname : function () {
-    console.log(this.name)
-  }
-}
-obj.sayname()
+// let obj = {
+//   name: "raj",
+//   sayname: function () {
+//     console.log(this.name)
+//   }
+// }
+// obj.sayname()
 
 // otuput----- object in object
 
 // * event handler
 
-document.querySelector("h").addEventListener("click",
-function () {
-  console.log(this)
-})
+// document.querySelector("h").addEventListener("click",
+//   function () {
+//     console.log(this)
+//   })
 
 // ! call apply bind
 
-let obj ={
-  name:"raj",
-  age:25,
-}
+// let obj = {
+//   name: "raj",
+//   age: 25,
+// }
 
-function abcd () {
-  console.log(this)
+// function abcd() {
+//   console.log(this)
 
-}
-abcd.call(obj)
+// }
+// abcd.call(obj)
 
 // ! constructer function
 
-function Creatllm(name, age, work, color, day) {
+function Rammllm(name, age, work, color, day) {
   this.name = name;
   this.age = age;
   this.work = work;
@@ -119,5 +119,36 @@ function Creatllm(name, age, work, color, day) {
 
   }
 }
-let ram = new Creatllm("raj", 23, "shopciper", "red", "sturday")
-let rajj = new Creatllm("raju", 23, "head", "black", "sturday")
+Rammllm.prototype.time ="12:35"
+
+
+
+let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
+let rajj = new Rammllm("raju", 23, "head", "black", "sturday")
+
+// ! classes 
+
+
+// class Rammllm {
+//   constructor(name, age, work, color, day){
+//   this.name = name;
+//   this.age = age;
+//   this.work = work;
+//   this.color = color;
+//   this.day = day;
+//   }
+//  any4 (text) {
+//     let ra = document.createElement("h")
+//     ra.textContent = text
+//     ra.style.color = this.color
+//     document.body.append(ra)
+
+//   }
+// }
+// Rammllm.prototype.time = "12:35"
+
+
+
+// let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
+// let rajj = new Rammllm("raju", 23, "head", "white", "sturday")
+
