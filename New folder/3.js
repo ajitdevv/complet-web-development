@@ -92,16 +92,16 @@
 
 // ! call apply bind
 
-// let obj ={
-//   name:"raj",
-//   age:25,
-// }
+let obj ={
+  name:"raj",
+  age:25,
+}
 
-// function abcd () {
-//   console.log(this)
+function abcd () {
+  console.log(this)
 
-// }
-// abcd.call(obj)
+}
+abcd.call(obj)
 
 // ! constructer function
 
