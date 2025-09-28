@@ -105,50 +105,50 @@
 
 // ! constructer function
 
-function Rammllm(name, age, work, color, day) {
-  this.name = name;
-  this.age = age;
-  this.work = work;
-  this.color = color;
-  this.day = day;
-  this.any4 = function (text) {
-    let ra = document.createElement("h")
-    ra.textContent = text
-    ra.style.color = color
-    document.body.append(ra)
-
-  }
-}
-Rammllm.prototype.time ="12:35"
-
-
-
-let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
-let rajj = new Rammllm("raju", 23, "head", "black", "sturday")
-
-// ! classes 
-
-
-// class Rammllm {
-//   constructor(name, age, work, color, day){
+// function Rammllm(name, age, work, color, day) {
 //   this.name = name;
 //   this.age = age;
 //   this.work = work;
 //   this.color = color;
 //   this.day = day;
-//   }
-//  any4 (text) {
+//   this.any4 = function (text) {
 //     let ra = document.createElement("h")
 //     ra.textContent = text
-//     ra.style.color = this.color
+//     ra.style.color = color
 //     document.body.append(ra)
 
 //   }
 // }
-// Rammllm.prototype.time = "12:35"
+// Rammllm.prototype.time ="12:35"
 
 
 
 // let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
-// let rajj = new Rammllm("raju", 23, "head", "white", "sturday")
+// let rajj = new Rammllm("raju", 23, "head", "black", "sturday")
+
+// ! classes 
+
+
+class Rammllm {
+  constructor(name, age, work, color, day){
+  this.name = name;
+  this.age = age;
+  this.work = work;
+  this.color = color;
+  this.day = day;
+  }
+ any4 (text) {
+    let ra = document.createElement("h")
+    ra.textContent = text
+    ra.style.color = this.color
+    document.body.append(ra)
+
+  }
+}
+Rammllm.prototype.time = "12:35"
+
+
+
+let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
+let rajj = new Rammllm("raju", 23, "head", "white", "sturday")
 
