@@ -85,10 +85,10 @@
 
 // * event handler
 
-// document.querySelector("h").addEventListener("click",
-// function () {
-//   console.log(this)
-// })
+document.querySelector("h").addEventListener("click",
+function () {
+  console.log(this)
+})
 
 // ! call apply bind
 
