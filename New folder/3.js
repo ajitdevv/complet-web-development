@@ -192,17 +192,26 @@
 // let rajj = new Rammllm("raju", 23, "head", "green", "sturday")
 // let sir = new Admin("admin1", 24, "hr", "pink", "sturday")
 
-// ! clasicl inheritance
+// ! Object inheritance
 
-let coffee ={
-  color:"dark",
-  price: "fix",
-  drink: function () {
-    console.log("waw kya msat h ")
+// let coffee ={
+//   color:"dark",
+//   price: "fix",
+//   drink: function () {
+//     console.log("waw kya msat h ")
     
-  }
-}
+//   }
+// }
 
-let cepichino =Object.create(coffee)
-cepichino.rat="2323"
-cepichino.drink()
+// let cepichino =Object.create(coffee)
+// cepichino.rat="2323"
+// cepichino.drink()
+
+// ! sycn code ===> code jo ek ke bad ek execute hota h
+// ! asyn code ===> code jo ek sath execute hota h
+// * callback function ===> function jo kisi function ke ander as a argument pass hota h
+
+function abcd(name, age, task) {
+  console.log(`my name is ${name} and my age is ${age}`)
+  task()
+}
