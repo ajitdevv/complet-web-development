@@ -155,40 +155,54 @@
 
 // * extends and super keyword
 
-class Rammllm {
-  constructor(name, age, work, color, day) {
-    this.name = name;
-    this.age = age;
-    this.work = work;
-    this.color = color;
-    this.day = day;
-    this.role = "user"
-  }
-  any4(text) {
-    let ra = document.createElement("h1")
-    ra.textContent = text
-    ra.style.color = this.color
-    document.body.append(ra)
+// class Rammllm {
+//   constructor(name, age, work, color, day) {
+//     this.name = name;
+//     this.age = age;
+//     this.work = work;
+//     this.color = color;
+//     this.day = day;
+//     this.role = "user"
+//   }
+//   any4(text) {
+//     let ra = document.createElement("h1")
+//     ra.textContent = text
+//     ra.style.color = this.color
+//     document.body.append(ra)
 
+//   }
+// }
+
+// class Admin extends Rammllm {
+//   constructor(name, age, work, color, day) {
+//     super(name, age, work, color, day)
+//     this.role = "admin"
+//   }
+
+//   remove() {
+//     document.querySelectorAll("h1").forEach(function (elem) {
+//       elem.remove()
+
+//     })
+
+//   }
+// }
+
+// let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
+// let rajj = new Rammllm("raju", 23, "head", "green", "sturday")
+// let sir = new Admin("admin1", 24, "hr", "pink", "sturday")
+
+// ! clasicl inheritance
+
+let coffee ={
+  color:"dark",
+  price: "fix",
+  drink: function () {
+    console.log("waw kya msat h ")
+    
   }
 }
 
-class Admin extends Rammllm {
-  constructor(name, age, work, color, day) {
-    super(name, age, work, color, day)
-    this.role = "admin"
-  }
-
-  remove() {
-    document.querySelectorAll("h1").forEach(function (elem) {
-      elem.remove()
-
-    })
-
-  }
-}
-
-let ram = new Rammllm("raj", 23, "shopciper", "red", "sturday")
-let rajj = new Rammllm("raju", 23, "head", "green", "sturday")
-let sir = new Admin("admin1", 24, "hr", "pink", "sturday")
-
+let cepichino =Object.create(coffee)
+cepichino.rat="2323"
+cepichino.drink()
