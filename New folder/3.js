@@ -211,7 +211,9 @@
 // ! asyn code ===> code jo ek sath execute hota h
 // * callback function ===> function jo kisi function ke ander as a argument pass hota h
 
-function abcd(name, age, task) {
-  console.log(`my name is ${name} and my age is ${age}`)
-  task()
-}
+// function abcd(name, age, task) {
+//   console.log(`my name is ${name} and my age is ${age}`)
+//   task()
+// }
+
+// * 
