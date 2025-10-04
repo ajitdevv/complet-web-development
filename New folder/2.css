@@ -137,14 +137,14 @@
 
 } */
 
-/* .p1::first-letter {
+.p1::first-letter {
     text-transform: capitalize;
     font-size: 22px;
     color: rgb(147, 71, 147);
     font-weight: 600;
 
 
-} */
+}
 
 .p1 {
 
