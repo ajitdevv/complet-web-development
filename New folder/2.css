@@ -93,8 +93,8 @@
     /* text-transform: capitalize;
     /* background-image: linear-gradient(rgb(204, 255, 0), rgba(255, 157, 0, 0.849)); */
 
-}
-/* 
+/* } */
+ 
 .list1 a {
     text-decoration: none;
     font-size: 1.3rem;
@@ -103,8 +103,7 @@
     color: rgb(255, 198, 128);
 
 
-} */
-
+} 
 
 /* h1 {                 this his totely comment down because i chang h1 to logo
     width: 270px;
