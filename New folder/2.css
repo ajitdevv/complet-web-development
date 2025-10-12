@@ -182,13 +182,13 @@
     justify-content: space-between;
 }
 
-.ford_p::first-letter {
+/* .ford_p::first-letter {
     text-transform: capitalize;
     font-size: 22px;
     color: rgb(246, 114, 43);
     font-weight: 600;
 
-}
+} */
 
 .ford_p {
 
