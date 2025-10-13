@@ -190,7 +190,7 @@
 
 } */
 
-.ford_p {
+/* .ford_p {
 
     width: 250px;
     height: 200px;
@@ -204,9 +204,9 @@
     border-radius: 10px;
     background-color: rgba(107, 242, 242, 0.313);
     overflow-y: scroll;
-
-    /* z-index: 1000;* */
 }
+   
+} */
 
 .ford_p span {
     font-weight: bold;
