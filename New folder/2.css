@@ -236,16 +236,16 @@
 
 } */
 
-.moon img {
+/* .moon img {
     width: 70%;
     height: auto;
     filter: brightness(130%);
     border-radius: 10px;
     filter: opacity(1);
     /* thi his 0 to 1 i mean (like 0.4,0.6,0.9) */
-    box-shadow: 3px 3px 5px black;
+    /* box-shadow: 3px 3px 5px black; */
 
-}
+} */
 
 .raaju {
     text-align: justify;
