@@ -309,7 +309,7 @@ a {
 .list2 ul,
 .list2 ol {
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
     display: block;
     /* padding-bottom: 50px; */
     text-align: center;
