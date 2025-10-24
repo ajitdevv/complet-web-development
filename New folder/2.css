@@ -76,8 +76,9 @@
     font-weight: 400;
     margin: 0;
     font-variant: small-caps;
-
+}
 /* 
+
     /* border-radius: 7px;
     padding: 5px;
     margin: auto;
@@ -247,9 +248,9 @@
 
 /* }  */
 
-/* .raaju {
+ .raaju {
     text-align: justify;
-    font-variant: small-caps; */
+    /* font-variant: small-caps; */ */
     /* text-decoration:underline; */
     /* text-transform: capitalize;
     letter-spacing: 0.7px;
@@ -257,7 +258,7 @@
     /* margin-top: 50px;  */
     /* margin-bottom: 20px;
 
-} */
+} 
 
 
 
