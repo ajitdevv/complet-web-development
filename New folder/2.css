@@ -282,7 +282,7 @@ a {
 
 .atag a:link {
     /* display: inline-block; */
-    text-align: center;
+    /* text-align: center; */
     /* text-align: right; */
     width: 140px;
     height: 40px;
