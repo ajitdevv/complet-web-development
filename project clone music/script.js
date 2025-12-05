@@ -308,7 +308,7 @@ function renderNextChunk(list) {
     img.src = song.image;
 
     const title = document.createElement("h3");
-    // title.textContent = song.name;
+    title.textContent = song.name;
 
     const singer = document.createElement("p");
     singer.textContent = song.singer;
