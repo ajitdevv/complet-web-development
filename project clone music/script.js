@@ -301,7 +301,7 @@ function renderNextChunk(list) {
   const nextSongs = list.slice(currentIndex, currentIndex + perPage);
 
   nextSongs.forEach(song => {
-    // const card = document.createElement("div");
+    const card = document.createElement("div");
     card.className = "song-card";
 
     const img = document.createElement("img");
