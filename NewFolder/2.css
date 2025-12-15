@@ -149,7 +149,7 @@
 .p1 {
 
 
-    border: 1px solid #1f2937;
+    /* border: 1px solid #1f2937; */
     /* border-radius: 12px;
   padding: 14px 16px;
   max-height: 200px;
@@ -248,7 +248,7 @@
 
 /* }  */
 
- .raaju {
+ /* .raaju { */
     /* text-align: justify; */
     /* font-variant: small-caps; */ */
     /* text-decoration:underline; */
@@ -274,8 +274,8 @@ a {
 
 
     /* padding-top: 3px; */
-    padding-left: 7px;
-    padding-bottom: 20px;
+    /* padding-left: 7px; */
+    /* padding-bottom: 20px; */
 
 
 /* } */
